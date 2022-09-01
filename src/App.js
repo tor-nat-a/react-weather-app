@@ -1,10 +1,12 @@
 import "./App.css";
-import React from 'react'
+import React from 'react';
+import Weather from "./Weather";
 const App = () => {
   return (
     <div className="App">
       <div className="container">
         <h1>Weather</h1>
+        <Weather />
         <footer>
           This project was coded by Nataliia Torhonska and is
           <a
