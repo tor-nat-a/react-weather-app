@@ -6,7 +6,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <h1>Weather</h1>
-        <Weather />
+        <Weather defaultCity="Kyiv" />
         <footer>
           This project was coded by Nataliia Torhonska and is
           <a
